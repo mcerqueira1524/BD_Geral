@@ -25,7 +25,7 @@ def importar_base():
     bd = st.file_uploader("Upload do arquivo XLSX", type="xlsx")
     return bd
 
-sts,ra,empregabilidade=importar_base()
+bd =importar_base()
 
 
 # In[3]:
