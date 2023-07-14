@@ -18,7 +18,7 @@ from st_pages import Page, Section, add_page_title, show_pages
 # In[ ]:
 
 
-@st.experimental_memo
+#@st.experimental_memo
 
 def importar_base():
     bd = st.file_uploader("Upload do arquivo XLSX", type="xlsx")
